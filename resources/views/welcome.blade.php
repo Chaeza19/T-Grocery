@@ -854,9 +854,9 @@
             </div>
         @endif
 
-        <div class="m-0 w-[1493px] h-[435px] relative">
+        <div class="justify-center top-3.5 w-">
             <img src="{{ asset('assets/svg/Dashboard.svg') }}" alt="Dashboard">
-        </div>  
+        </div>
     </div>
 </body>
 
