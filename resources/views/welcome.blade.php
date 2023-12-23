@@ -853,10 +853,12 @@
                 @endauth
             </div>
         @endif
-
-        <div class="justify-center top-3.5 w-">
+        <div class="justify-center h-96 pt-8 py-8" style="width: 90%; position: absolute;">
             <img src="{{ asset('assets/svg/Dashboard.svg') }}" alt="Dashboard">
         </div>
+        <div class="bg-grey-100 bg-gray-100" style="width: 361px; height: 125px; border-radius: 50px;">
+        </div>
+
     </div>
 </body>
 
