@@ -854,9 +854,11 @@
             </div>
         @endif
 
-        <div class="justify-center top-3.5 w-">
+        <div class="justify-center h-96 pt-8 py-8">
             <img src="{{ asset('assets/svg/Dashboard.svg') }}" alt="Dashboard">
         </div>
+
+
     </div>
 </body>
 
