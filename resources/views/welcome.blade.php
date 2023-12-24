@@ -853,15 +853,32 @@
                 @endauth
             </div>
         @endif
+
         <div class="static justify-center h-96 pt-8 py-8" style="width: 90%; position: absolute;">
             <img src="{{ asset('assets/svg/Dashboard.svg') }}" alt="Dashboard">
             <div
                 style="width: 635px;height: 210px;border-radius: 50px;background-color: #EAEAEA;position: absolute;top: 60%;left: 20%;">
-                <div class="text-black text-xl" style="position: absolute;font-weight: 800;left: 5%;top: 5%;">Lokasi
-                    Anda</div>
-                <div>
+                <form method="POST">
+                    <div class="text-black text-xl" style="position: absolute; font-weight: 800; left: 5%; top: 10%;">
+                        Lokasi Anda</div>
+                    <div class="select"
+                        style="width: 615px;height: 47px;border-radius: 50px;background: #ffffff;position: absolute;top: 30%; left: 2%;">
+                        <img style="width: 22px;height: 30px;position: absolute;top: 5%;left: 3%;"
+                            src="{{ asset('assets/icons/lokasi.svg') }}" alt="icon-lokasi">
 
-                </div>
+                        <select name="lokasi_id" id="lokasi_id" required
+                            class="text-left text-black text-lg font-weight-normal"
+                            style="position:absolute;top: 20%;left: 7%; width: 85%;">
+                            <option>Enter Your Location</option>
+                            @foreach ($lokasi as $data_lokasi)
+                                <option value="{{ $data_lokasi->id }}">{{ $data_lokasi->nama }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <button type="submit" name="cari"
+                        style="width: 718px; height: 62px; flex-shrink: 0; border-radius: 50px; background: #198F1E; color: var(--Color, #FFF);"><b>E
+                            X P L O R E</b></button>
+                </form>
             </div>
 
         </div>
