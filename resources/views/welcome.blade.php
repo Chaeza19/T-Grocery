@@ -856,13 +856,15 @@
         <div class="static justify-center h-96 pt-8 py-8" style="width: 90%; position: absolute;">
             <img src="{{ asset('assets/svg/Dashboard.svg') }}" alt="Dashboard">
             <div
-                style="width: 803px;height: 279px;border-radius: 50px;background-color: #EAEAEA;position: absolute;top: 60%;left: 20%;">
+                style="width: 635px;height: 210px;border-radius: 50px;background-color: #EAEAEA;position: absolute;top: 60%;left: 20%;">
                 <div class="text-black text-xl" style="position: absolute;font-weight: 800;left: 5%;top: 5%;">Lokasi
                     Anda</div>
-            </div>
-        </div>
+                <div>
 
-    </div>
+                </div>
+            </div>
+
+        </div>
 </body>
 
 </html>
