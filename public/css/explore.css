@@ -1,0 +1,85 @@
+.explore-container {
+  background-color: #EEEEEE;
+}
+
+.explore-hero {
+  background-image: url('../images/explore-hero.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 40vh;
+  box-sizing: border-box;
+  padding-left: 40px;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .explore-hero {
+    background: none;
+    height: 25vh;
+    padding-left: 0;
+  }
+}
+
+#explore .sub_judul p {
+  color: #4b3c39;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+#explore .sub_judul h5 {
+  color: var(--000000-100, #000);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+#explore .produk {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.produk_items {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50% 50% 30% 30%;
+  margin: 10px;
+}
+
+.produk_items a {
+  border-radius: 50% 50% 48px 48px;
+}
+
+.produk_items p {
+  width: 100%;
+  color: var(--000000-100, #000);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.circle-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  background-color: red;
+}
+
+.circle-image {
+  width: 100%;
+  height: auto;
+}

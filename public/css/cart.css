@@ -1,0 +1,21 @@
+.body{
+  padding-top: 70px;
+  height: 100vh !important;
+}
+.side{
+  background: #FFBA00;
+  height: 100%;
+}
+.main{
+  padding: 50px 100px;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .side{
+    display: none !important;
+  }
+  .main{
+    padding: 5px;
+  }
+}

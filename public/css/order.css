@@ -1,0 +1,179 @@
+/* empty Order */
+#emptyOrder {
+  height: 100vh;
+}
+
+#emptyOrder p {
+  color: #7b7b7b;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Order */
+#order {
+  margin-top: 80px;
+}
+
+#order .sub_judul h5 {
+  color: var(--E50914-100, #e50914);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.3px;
+}
+
+#order .sub_judul a {
+  color: black;
+  font-size: 14px;
+  margin: 0;
+}
+
+#order .card_order {
+  width: 96%;
+  /* height: 275px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--proses, #b11116);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+}
+
+#order .card_order h5 {
+  color: var(--Color, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#order .card_order .nameProduct p {
+  color: var(--Color, #fff);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#order .card_order button {
+  color: var(--proses, #b11116);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.3px;
+}
+
+/* Show Order */
+
+#show_order {
+  margin-top: 80px;
+}
+
+#show_order p {
+  font-size: 14px;
+}
+
+#show_order .sub_judul h5 {
+  color: var(--E50914-100, #e50914);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.3px;
+}
+
+#show_order .sub_judul a {
+  color: black;
+  font-size: 14px;
+  margin: 0;
+}
+
+#show_order .card_order {
+  width: 96%;
+  /* height: 275px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--proses, #b11116);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+}
+
+#show_order .logo_next {
+  position: absolute;
+  top: 15%;
+  right: -20px;
+}
+
+#show_order button {
+  font-size: 13px;
+  width: 150px;
+}
+
+#show_order table {
+  --bs-table-bg: normal;
+}
+#show_order table tr td {
+  color: white;
+  font-size: 14px;
+}
+
+#show_order tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: none;
+  border-width: 0;
+}
+
+/* order Rejected */
+#orderRejected{
+  height: 100vh;
+}
+
+#orderRejected .card_orderRejected {
+  width: 100%;
+  border-radius: 30px;
+  background: var(--proses, #b11116);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+  #show_order .logo_next {
+    display: none;
+  }
+  #show_order .img_rincian {
+    margin-bottom: 40px;
+  }
+  #show_order table tbody tr td:nth-child(1) {
+    padding-left: 10px !important;
+  }
+
+  #orderRejected .card_orderRejected {
+    display: block !important;
+  }
+}

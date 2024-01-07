@@ -1,0 +1,260 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: rgba(229, 9, 20, 1);
+}
+
+.active-nav-link{
+    background: white;
+    padding: 0 5px;
+}
+.active-nav-link a{
+    color: red !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-item a {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    padding: 0;
+}
+
+.navbar-user ul li button {
+    border-radius: 50px;
+    background: var(--EAEAEA-100, #eaeaea);
+    border: 0;
+    color: var(--E50914-100, #e50914);
+    text-align: center;
+    /* Navigation */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+.navbar-user .hiUser p {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--FFFFFF-100, var(--Color, #fff));
+    text-align: center;
+
+    /* Navigation */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+#content {
+    height: 100vh;
+}
+
+#content .bg_welcome {
+    width: 100%;
+}
+
+#content .bg_welcome img {
+    height: 315px;
+    width: 100%;
+}
+
+#content .sub_judul {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin-left: 22rem;
+    margin-right: 22rem;
+}
+
+#content .sub_judul h5 {
+    color: var(--FFFFFF-100, var(--Color, #fff));
+
+    /* Header 1 */
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.75px;
+}
+
+#content .sub_judul p {
+    color: var(--Color, #fff);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#content .card_location {
+    background-color: cadetblue;
+    width: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 25%;
+    padding: 30px;
+    border-radius: 30px;
+    background: #eaeaea;
+}
+#content .card_location p {
+    color: var(--000000-100, #000);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#content .card_location button {
+    background-color: rgba(25, 143, 30, 1);
+    color: white;
+}
+
+/* Sign-In */
+
+#signIn {
+    height: 100vh;
+}
+
+#signIn .bg_signIn img {
+    height: 100vh;
+    width: 100%;
+}
+
+#signIn .card_signIn {
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 118px;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+#signIn .card_signIn .txt_signIn p {
+    margin: 0;
+}
+
+#signIn .card_signIn .txt_signIn :nth-child(1) {
+    color: #685033;
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#signIn .card_signIn .txt_signIn :nth-child(2) {
+    color: #685033;
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#signIn .bg_signIn {
+    background-image: url(../images/bg2.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+#signIn .bg_signIn p {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    /* transform: translate(-50%, -50%); */
+    color: var(--Color, #fff);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#signIn .pilihan {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#signIn .pilihan input {
+    width: 400px;
+    border: 1px solid var(--000000-100, #000);
+    border-radius: 50px;
+    font-size: 0.7rem;
+    height: 40px;
+    padding: 10px 10px;
+}
+#signIn .pilihan select {
+    width: 400px;
+    border: 1px solid var(--000000-100, #000);
+    border-radius: 50px;
+    font-size: 0.7rem;
+    height: 40px;
+}
+
+#signIn .pilihan button {
+    background: #198f1e;
+    width: 400px;
+    border-radius: 50px;
+    color: white;
+}
+
+#signIn .pilihan p {
+    color: #4b3c39;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#signIn .pilihan span a {
+    color: #e50914;
+}
+#signIn .pilihan h4 {
+    color: var(--000000-100, #000);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
